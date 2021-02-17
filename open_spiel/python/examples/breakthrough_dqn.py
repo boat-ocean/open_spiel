@@ -82,7 +82,7 @@ def main(_):
   game = "breakthrough"
   num_players = 2
 
-  env_configs = {"columns": 5, "rows": 5}
+  env_configs = {"columns": 10, "rows": 10}
   env = rl_environment.Environment(game, **env_configs)
   info_state_size = env.observation_spec()["info_state"][0]
   num_actions = env.action_spec()["num_actions"]
