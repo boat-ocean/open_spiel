@@ -43,7 +43,7 @@ flags.DEFINE_integer(
     "Episode frequency at which the DQN agents are evaluated.")
 
 # DQN model hyper-parameters
-flags.DEFINE_list("hidden_layers_sizes", [64, 64],
+flags.DEFINE_list("hidden_layers_sizes", [128, 128],
                   "Number of hidden units in the Q-Network MLP.")
 flags.DEFINE_integer("replay_buffer_capacity", int(1e5),
                      "Size of the replay buffer.")
@@ -82,7 +82,7 @@ def main(_):
   game = "breakthrough"
   num_players = 2
 
-  env_configs = {"columns": 6, "rows": 6}
+  env_configs = {"columns": 8, "rows": 8}
   env = rl_environment.Environment(game, **env_configs)
   info_state_size = env.observation_spec()["info_state"][0]
   num_actions = env.action_spec()["num_actions"]
