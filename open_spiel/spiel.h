@@ -137,6 +137,38 @@ struct GameType {
   bool provides_factored_observation_string = false;
 };
 
+// Information about a concrete Game instantiation.
+// This information may depend on the game parameters, and hence cannot
+// be part of `GameType`.
+struct GameInfo {
+  // The size of the action space. See `Game` for a full description.
+  int num_distinct_actions;
+
+  // Maximum number of distinct chance outcomes for chance nodes in the game.
+  int max_chance_outcomes;
+
+  // The number of players in this instantiation of the game.
+  // Does not include the chance-player.
+  int num_players;
+
+  // Utility range. These functions define the lower and upper bounds on the
+  // values returned by State::PlayerReturn(Player player) over all valid player
+  // numbers. This range should be as tight as possible; the intention is to
+  // give some information to algorithms that require it, and so their
+  // performance may suffer if the range is not tight. Loss/draw/win outcomes
+  // are common among games and should use the standard values of {-1,0,1}.
+  double min_utility;
+  double max_utility;
+
+  // The total utility for all players, if this is a constant-sum-utility game.
+  // Should be zero if the game is zero-sum.
+  double utility_sum;
+
+  // The maximum number of player decisions in a game. Does not include chance
+  // events.
+  int max_game_length;
+};
+
 std::ostream& operator<<(std::ostream& os, const StateType& type);
 
 std::ostream& operator<<(std::ostream& stream, GameType::Dynamics value);
@@ -357,7 +389,7 @@ class State {
   // A string representation for the history. There should be a one to one
   // mapping between histories (i.e. sequences of actions for all players,
   // including chance) and the `State` objects.
-  std::string HistoryString() const { return absl::StrJoin(History(), " "); }
+  std::string HistoryString() const { return absl::StrJoin(History(), ", "); }
 
   // Return how many moves have been done so far in the game.
   // When players make simultaneous moves, this counts only as a one move.
@@ -608,6 +640,18 @@ class State {
     return GetHistoriesConsistentWithInfostate(CurrentPlayer());
   }
 
+  // Returns a vector of all actions that are consistent with the information
+  // revealed by taking action. E.g. in Poker, this does nothing but return the
+  // current action as poker only has public actions. In a game like Battleship,
+  // where the placement phase is hidden, this would return all possible
+  // placements.
+  virtual std::vector<Action> ActionsConsistentWithInformationFrom(
+      Action action) const {
+    SpielFatalError(
+        "ActionsConsistentWithInformationFrom has not been implemented.");
+    return {};
+  }
+
  protected:
   // See ApplyAction.
   virtual void DoApplyAction(Action action_id) {
@@ -715,8 +759,7 @@ class Game : public std::enable_shared_from_this<Game> {
   int InformationStateTensorSize() const {
     std::vector<int> shape = InformationStateTensorShape();
     return shape.empty() ? 0
-                         : std::accumulate(shape.begin(), shape.end(), 1,
-                                           std::multiplies<double>());
+                         : absl::c_accumulate(shape, 1, std::multiplies<int>());
   }
 
   // Describes the structure of the observation representation in a
@@ -736,8 +779,7 @@ class Game : public std::enable_shared_from_this<Game> {
   int ObservationTensorSize() const {
     std::vector<int> shape = ObservationTensorShape();
     return shape.empty() ? 0
-                         : std::accumulate(shape.begin(), shape.end(), 1,
-                                           std::multiplies<double>());
+                         : absl::c_accumulate(shape, 1, std::multiplies<int>());
   }
 
   // Describes the structure of the policy representation in a

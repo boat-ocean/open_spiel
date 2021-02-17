@@ -32,6 +32,8 @@ set(PYTHON_BINDINGS ${PYTHON_BINDINGS}
   pybind11/policy.cc
   pybind11/policy.h
   pybind11/pyspiel.cc
+  pybind11/python_games.cc
+  pybind11/python_games.h
   )
 
 # Optional pyspiel sub-modules, which can specify their python bindings.
@@ -143,6 +145,7 @@ set(PYTHON_TESTS ${PYTHON_TESTS}
   environments/catch_test.py
   environments/cliff_walking_test.py
   games/data_test.py
+  games/kuhn_poker_test.py
   games/tic_tac_toe_test.py
   tests/bot_test.py
   tests/games_bridge_test.py
@@ -160,7 +163,10 @@ set(PYTHON_TESTS ${PYTHON_TESTS}
   pytorch/rcfr_pytorch_test.py
   pytorch/dqn_pytorch_test.py
   pytorch/nfsp_pytorch_test.py
+  pytorch/deep_cfr_pytorch_test.py
   pytorch/eva_pytorch_test.py
+  pytorch/losses/rl_losses_pytorch_test.py
+  pytorch/policy_gradient_pytorch_test.py
 )
 
 
