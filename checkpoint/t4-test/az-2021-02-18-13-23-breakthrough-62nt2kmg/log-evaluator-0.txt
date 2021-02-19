@@ -1,0 +1,10 @@
+[2021-02-18 13:23:09.683] evaluator-0 started
+[2021-02-18 13:23:09.684] Initializing model
+[2021-02-18 13:23:14.396] Initializing bots
+[2021-02-18 13:23:36.410] Game 0: Returns: -1.0 1.0; Actions: f7f6 c2d3 d7d6 b2c3 h7h6 d3e4 b7c6 c3d4 h6g5 e4d5 g8h7 d5e6 g5h4 e2e3 f6f5 e6f7 g7h6 f7g8
+[2021-02-18 13:23:36.410] AZ: -1.0, MCTS: 1.0, AZ avg/1: -1.000
+[2021-02-18 13:23:36.411] Inference cache: CacheInfo(hits=243, misses=2694, size=2694, max_size=65536)
+[2021-02-18 13:23:36.411] Loading checkpoint /tmp/az-2021-02-18-13-23-breakthrough-62nt2kmg/checkpoint-0
+[2021-02-18 13:24:26.289] Game 1: Returns: 1.0 -1.0; Actions: f7g6 f2f3 g6g5 c2c3 h7h6 c3b4 e7d6 d2d3 g8f7 d3d4 b7a6 g1f2 d6e5 f2g3 g7g6 d4d5 e5e4 f3e4* a8b7 d1c2 f7f6 g3f4 d8e7 f4g5* f6e5 e1d2 b7b6 h2g3 b6a5 g3f4 h6g5* g2g3 g5g4 f4e5* d7c6 e5f6 g4f3 f6g7 h8g7* e4e5 f3f2 b4c5 f2e1
+[2021-02-18 13:24:26.289] AZ: -1.0, MCTS: 1.0, AZ avg/2: -1.000
+[2021-02-18 13:24:31.355] evaluator-0 exiting

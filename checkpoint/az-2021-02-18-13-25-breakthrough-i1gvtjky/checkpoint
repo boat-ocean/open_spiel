@@ -1,0 +1,3 @@
+model_checkpoint_path: "/tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1"
+all_model_checkpoint_paths: "/tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint-0"
+all_model_checkpoint_paths: "/tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1"

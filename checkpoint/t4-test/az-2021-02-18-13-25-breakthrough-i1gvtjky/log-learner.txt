@@ -1,0 +1,462 @@
+[2021-02-18 13:25:36.337] learner started
+[2021-02-18 13:25:36.337] Initializing model
+[2021-02-18 13:25:37.946] Model type: mlp(128, 10)
+[2021-02-18 13:25:37.947] Model size: 305537 variables
+[2021-02-18 13:25:38.307] Initial checkpoint: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint-0
+[2021-02-18 13:49:36.274] Step: 1
+[2021-02-18 13:49:36.274] Collected 21867 states from 376 games, 14.6 states/s. 1.8 states/(s*actor), game length: 58.2
+[2021-02-18 13:49:36.274] Buffer size: 21867. States seen: 21867
+[2021-02-18 13:49:42.080] Losses(total: 4.272, policy: 3.238, value: 0.954, l2: 0.080)
+[2021-02-18 13:49:42.081] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 13:49:42.100]
+[2021-02-18 14:11:45.626] Step: 2
+[2021-02-18 14:11:45.626] Collected 21854 states from 400 games, 16.4 states/s. 2.1 states/(s*actor), game length: 54.6
+[2021-02-18 14:11:45.626] Buffer size: 43721. States seen: 43721
+[2021-02-18 14:11:56.490] Losses(total: 4.059, policy: 3.160, value: 0.836, l2: 0.063)
+[2021-02-18 14:11:56.490] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 14:11:56.492]
+[2021-02-18 14:32:57.363] Step: 3
+[2021-02-18 14:32:57.363] Collected 21858 states from 354 games, 17.2 states/s. 2.1 states/(s*actor), game length: 61.7
+[2021-02-18 14:32:57.363] Buffer size: 65536. States seen: 65579
+[2021-02-18 14:33:09.429] Losses(total: 3.802, policy: 3.008, value: 0.740, l2: 0.054)
+[2021-02-18 14:33:09.432] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 14:33:09.450]
+[2021-02-18 14:54:25.587] Step: 4
+[2021-02-18 14:54:25.587] Collected 21902 states from 374 games, 17.0 states/s. 2.1 states/(s*actor), game length: 58.6
+[2021-02-18 14:54:25.587] Buffer size: 65536. States seen: 87481
+[2021-02-18 14:54:39.257] Losses(total: 3.732, policy: 2.863, value: 0.817, l2: 0.051)
+[2021-02-18 14:54:39.258] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 14:54:39.268]
+[2021-02-18 15:15:43.097] Step: 5
+[2021-02-18 15:15:43.097] Collected 21884 states from 365 games, 17.1 states/s. 2.1 states/(s*actor), game length: 60.0
+[2021-02-18 15:15:43.097] Buffer size: 65536. States seen: 109365
+[2021-02-18 15:15:54.823] Losses(total: 3.624, policy: 2.824, value: 0.749, l2: 0.050)
+[2021-02-18 15:15:54.824] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 15:15:54.833]
+[2021-02-18 15:36:47.115] Step: 6
+[2021-02-18 15:36:47.115] Collected 21859 states from 367 games, 17.3 states/s. 2.2 states/(s*actor), game length: 59.6
+[2021-02-18 15:36:47.115] Buffer size: 65536. States seen: 131224
+[2021-02-18 15:36:57.774] Losses(total: 3.573, policy: 2.807, value: 0.716, l2: 0.050)
+[2021-02-18 15:36:57.774] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 15:36:57.782]
+[2021-02-18 15:59:02.540] Step: 7
+[2021-02-18 15:59:02.540] Collected 21886 states from 357 games, 16.4 states/s. 2.0 states/(s*actor), game length: 61.3
+[2021-02-18 15:59:02.540] Buffer size: 65536. States seen: 153110
+[2021-02-18 15:59:14.455] Losses(total: 3.522, policy: 2.784, value: 0.688, l2: 0.050)
+[2021-02-18 15:59:14.455] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 15:59:14.466]
+[2021-02-18 16:20:42.518] Step: 8
+[2021-02-18 16:20:42.518] Collected 21857 states from 351 games, 16.8 states/s. 2.1 states/(s*actor), game length: 62.3
+[2021-02-18 16:20:42.518] Buffer size: 65536. States seen: 174967
+[2021-02-18 16:20:54.400] Losses(total: 3.539, policy: 2.786, value: 0.703, l2: 0.050)
+[2021-02-18 16:20:54.400] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 16:20:54.411]
+[2021-02-18 16:42:18.577] Step: 9
+[2021-02-18 16:42:18.577] Collected 21857 states from 343 games, 16.9 states/s. 2.1 states/(s*actor), game length: 63.7
+[2021-02-18 16:42:18.578] Buffer size: 65536. States seen: 196824
+[2021-02-18 16:42:31.435] Losses(total: 3.542, policy: 2.788, value: 0.704, l2: 0.050)
+[2021-02-18 16:42:31.435] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 16:42:31.443]
+[2021-02-18 17:03:55.358] Step: 10
+[2021-02-18 17:03:55.358] Collected 21853 states from 368 games, 16.9 states/s. 2.1 states/(s*actor), game length: 59.4
+[2021-02-18 17:03:55.358] Buffer size: 65536. States seen: 218677
+[2021-02-18 17:04:08.683] Losses(total: 3.557, policy: 2.803, value: 0.704, l2: 0.050)
+[2021-02-18 17:04:08.683] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 17:04:08.695]
+[2021-02-18 17:25:16.201] Step: 11
+[2021-02-18 17:25:16.201] Collected 21907 states from 356 games, 17.1 states/s. 2.1 states/(s*actor), game length: 61.5
+[2021-02-18 17:25:16.201] Buffer size: 65536. States seen: 240584
+[2021-02-18 17:25:27.591] Losses(total: 3.582, policy: 2.826, value: 0.705, l2: 0.050)
+[2021-02-18 17:25:27.591] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 17:25:27.599]
+[2021-02-18 17:46:44.811] Step: 12
+[2021-02-18 17:46:44.811] Collected 21850 states from 336 games, 17.0 states/s. 2.1 states/(s*actor), game length: 65.0
+[2021-02-18 17:46:44.811] Buffer size: 65536. States seen: 262434
+[2021-02-18 17:46:58.329] Losses(total: 3.583, policy: 2.818, value: 0.715, l2: 0.050)
+[2021-02-18 17:46:58.329] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 17:46:58.336]
+[2021-02-18 18:08:07.483] Step: 13
+[2021-02-18 18:08:07.483] Collected 21867 states from 342 games, 17.0 states/s. 2.1 states/(s*actor), game length: 63.9
+[2021-02-18 18:08:07.483] Buffer size: 65536. States seen: 284301
+[2021-02-18 18:08:18.563] Losses(total: 3.578, policy: 2.805, value: 0.722, l2: 0.050)
+[2021-02-18 18:08:18.564] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 18:08:18.572]
+[2021-02-18 18:29:41.738] Step: 14
+[2021-02-18 18:29:41.738] Collected 21882 states from 351 games, 16.9 states/s. 2.1 states/(s*actor), game length: 62.3
+[2021-02-18 18:29:41.738] Buffer size: 65536. States seen: 306183
+[2021-02-18 18:29:54.454] Losses(total: 3.544, policy: 2.799, value: 0.695, l2: 0.050)
+[2021-02-18 18:29:54.458] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 18:29:54.482]
+[2021-02-18 18:51:31.396] Step: 15
+[2021-02-18 18:51:31.396] Collected 21911 states from 345 games, 16.7 states/s. 2.1 states/(s*actor), game length: 63.5
+[2021-02-18 18:51:31.396] Buffer size: 65536. States seen: 328094
+[2021-02-18 18:51:43.116] Losses(total: 3.558, policy: 2.821, value: 0.686, l2: 0.050)
+[2021-02-18 18:51:43.116] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 18:51:43.125]
+[2021-02-18 19:13:05.980] Step: 16
+[2021-02-18 19:13:05.980] Collected 21854 states from 349 games, 16.9 states/s. 2.1 states/(s*actor), game length: 62.6
+[2021-02-18 19:13:05.980] Buffer size: 65536. States seen: 349948
+[2021-02-18 19:13:20.114] Losses(total: 3.547, policy: 2.829, value: 0.668, l2: 0.050)
+[2021-02-18 19:13:20.115] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 19:13:20.129]
+[2021-02-18 19:34:38.313] Step: 17
+[2021-02-18 19:34:38.313] Collected 21916 states from 334 games, 17.0 states/s. 2.1 states/(s*actor), game length: 65.6
+[2021-02-18 19:34:38.313] Buffer size: 65536. States seen: 371864
+[2021-02-18 19:34:52.895] Losses(total: 3.531, policy: 2.814, value: 0.668, l2: 0.050)
+[2021-02-18 19:34:52.895] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 19:34:52.925]
+[2021-02-18 19:56:05.029] Step: 18
+[2021-02-18 19:56:05.029] Collected 21861 states from 347 games, 17.0 states/s. 2.1 states/(s*actor), game length: 63.0
+[2021-02-18 19:56:05.029] Buffer size: 65536. States seen: 393725
+[2021-02-18 19:56:19.919] Losses(total: 3.523, policy: 2.808, value: 0.665, l2: 0.050)
+[2021-02-18 19:56:19.919] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 19:56:19.929]
+[2021-02-18 20:18:25.791] Step: 19
+[2021-02-18 20:18:25.791] Collected 21866 states from 352 games, 16.3 states/s. 2.0 states/(s*actor), game length: 62.1
+[2021-02-18 20:18:25.791] Buffer size: 65536. States seen: 415591
+[2021-02-18 20:18:37.774] Losses(total: 3.543, policy: 2.811, value: 0.682, l2: 0.050)
+[2021-02-18 20:18:37.775] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 20:18:37.786]
+[2021-02-18 20:41:03.566] Step: 20
+[2021-02-18 20:41:03.566] Collected 21871 states from 344 games, 16.1 states/s. 2.0 states/(s*actor), game length: 63.6
+[2021-02-18 20:41:03.566] Buffer size: 65536. States seen: 437462
+[2021-02-18 20:41:16.887] Losses(total: 3.559, policy: 2.817, value: 0.691, l2: 0.051)
+[2021-02-18 20:41:16.887] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 20:41:16.899]
+[2021-02-18 21:03:15.170] Step: 21
+[2021-02-18 21:03:15.170] Collected 21853 states from 349 games, 16.4 states/s. 2.1 states/(s*actor), game length: 62.6
+[2021-02-18 21:03:15.170] Buffer size: 65536. States seen: 459315
+[2021-02-18 21:03:27.648] Losses(total: 3.540, policy: 2.826, value: 0.663, l2: 0.051)
+[2021-02-18 21:03:27.648] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 21:03:27.661]
+[2021-02-18 21:25:18.177] Step: 22
+[2021-02-18 21:25:18.178] Collected 21849 states from 343 games, 16.5 states/s. 2.1 states/(s*actor), game length: 63.7
+[2021-02-18 21:25:18.178] Buffer size: 65536. States seen: 481164
+[2021-02-18 21:25:30.826] Losses(total: 3.528, policy: 2.832, value: 0.646, l2: 0.051)
+[2021-02-18 21:25:30.826] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 21:25:30.832]
+[2021-02-18 21:47:13.477] Step: 23
+[2021-02-18 21:47:13.477] Collected 21892 states from 335 games, 16.6 states/s. 2.1 states/(s*actor), game length: 65.3
+[2021-02-18 21:47:13.477] Buffer size: 65536. States seen: 503056
+[2021-02-18 21:47:24.720] Losses(total: 3.557, policy: 2.831, value: 0.675, l2: 0.051)
+[2021-02-18 21:47:24.720] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 21:47:24.733]
+[2021-02-18 22:09:24.440] Step: 24
+[2021-02-18 22:09:24.440] Collected 21882 states from 342 games, 16.4 states/s. 2.1 states/(s*actor), game length: 64.0
+[2021-02-18 22:09:24.440] Buffer size: 65536. States seen: 524938
+[2021-02-18 22:09:37.656] Losses(total: 3.565, policy: 2.840, value: 0.673, l2: 0.051)
+[2021-02-18 22:09:37.656] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 22:09:37.667]
+[2021-02-18 22:31:25.230] Step: 25
+[2021-02-18 22:31:25.230] Collected 21852 states from 338 games, 16.5 states/s. 2.1 states/(s*actor), game length: 64.7
+[2021-02-18 22:31:25.230] Buffer size: 65536. States seen: 546790
+[2021-02-18 22:31:38.108] Losses(total: 3.593, policy: 2.829, value: 0.712, l2: 0.051)
+[2021-02-18 22:31:38.134] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 22:31:38.145]
+[2021-02-18 22:53:14.529] Step: 26
+[2021-02-18 22:53:14.529] Collected 21925 states from 331 games, 16.7 states/s. 2.1 states/(s*actor), game length: 66.2
+[2021-02-18 22:53:14.529] Buffer size: 65536. States seen: 568715
+[2021-02-18 22:53:29.721] Losses(total: 3.541, policy: 2.817, value: 0.673, l2: 0.052)
+[2021-02-18 22:53:29.722] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 22:53:29.732]
+[2021-02-18 23:15:04.652] Step: 27
+[2021-02-18 23:15:04.652] Collected 21869 states from 323 games, 16.7 states/s. 2.1 states/(s*actor), game length: 67.7
+[2021-02-18 23:15:04.652] Buffer size: 65536. States seen: 590584
+[2021-02-18 23:15:19.031] Losses(total: 3.535, policy: 2.807, value: 0.677, l2: 0.052)
+[2021-02-18 23:15:19.031] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 23:15:19.041]
+[2021-02-18 23:36:57.827] Step: 28
+[2021-02-18 23:36:57.827] Collected 21849 states from 320 games, 16.6 states/s. 2.1 states/(s*actor), game length: 68.3
+[2021-02-18 23:36:57.827] Buffer size: 65536. States seen: 612433
+[2021-02-18 23:37:11.895] Losses(total: 3.489, policy: 2.784, value: 0.653, l2: 0.052)
+[2021-02-18 23:37:11.904] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 23:37:11.915]
+[2021-02-18 23:58:47.289] Step: 29
+[2021-02-18 23:58:47.289] Collected 21899 states from 319 games, 16.7 states/s. 2.1 states/(s*actor), game length: 68.6
+[2021-02-18 23:58:47.289] Buffer size: 65536. States seen: 634332
+[2021-02-18 23:58:59.480] Losses(total: 3.486, policy: 2.775, value: 0.659, l2: 0.052)
+[2021-02-18 23:58:59.480] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-18 23:58:59.492]
+[2021-02-19 00:20:49.707] Step: 30
+[2021-02-19 00:20:49.708] Collected 21912 states from 313 games, 16.6 states/s. 2.1 states/(s*actor), game length: 70.0
+[2021-02-19 00:20:49.708] Buffer size: 65536. States seen: 656244
+[2021-02-19 00:21:05.436] Losses(total: 3.479, policy: 2.770, value: 0.657, l2: 0.052)
+[2021-02-19 00:21:05.436] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 00:21:05.451]
+[2021-02-19 00:42:57.640] Step: 31
+[2021-02-19 00:42:57.641] Collected 21884 states from 327 games, 16.5 states/s. 2.1 states/(s*actor), game length: 66.9
+[2021-02-19 00:42:57.641] Buffer size: 65536. States seen: 678128
+[2021-02-19 00:43:11.171] Losses(total: 3.473, policy: 2.767, value: 0.653, l2: 0.053)
+[2021-02-19 00:43:11.179] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 00:43:11.191]
+[2021-02-19 01:05:10.727] Step: 32
+[2021-02-19 01:05:10.727] Collected 21901 states from 318 games, 16.4 states/s. 2.1 states/(s*actor), game length: 68.9
+[2021-02-19 01:05:10.727] Buffer size: 65536. States seen: 700029
+[2021-02-19 01:05:23.512] Losses(total: 3.461, policy: 2.755, value: 0.653, l2: 0.053)
+[2021-02-19 01:05:23.512] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 01:05:23.542]
+[2021-02-19 01:26:57.816] Step: 33
+[2021-02-19 01:26:57.816] Collected 21881 states from 312 games, 16.7 states/s. 2.1 states/(s*actor), game length: 70.1
+[2021-02-19 01:26:57.816] Buffer size: 65536. States seen: 721910
+[2021-02-19 01:27:11.856] Losses(total: 3.463, policy: 2.746, value: 0.664, l2: 0.053)
+[2021-02-19 01:27:11.856] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 01:27:11.891]
+[2021-02-19 01:48:54.266] Step: 34
+[2021-02-19 01:48:54.266] Collected 21879 states from 310 games, 16.6 states/s. 2.1 states/(s*actor), game length: 70.6
+[2021-02-19 01:48:54.266] Buffer size: 65536. States seen: 743789
+[2021-02-19 01:49:08.276] Losses(total: 3.442, policy: 2.734, value: 0.655, l2: 0.053)
+[2021-02-19 01:49:08.276] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 01:49:08.303]
+[2021-02-19 02:10:49.862] Step: 35
+[2021-02-19 02:10:49.863] Collected 21871 states from 316 games, 16.6 states/s. 2.1 states/(s*actor), game length: 69.2
+[2021-02-19 02:10:49.863] Buffer size: 65536. States seen: 765660
+[2021-02-19 02:11:04.488] Losses(total: 3.458, policy: 2.732, value: 0.673, l2: 0.053)
+[2021-02-19 02:11:04.498] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 02:11:04.510]
+[2021-02-19 02:32:51.953] Step: 36
+[2021-02-19 02:32:51.953] Collected 21903 states from 323 games, 16.6 states/s. 2.1 states/(s*actor), game length: 67.8
+[2021-02-19 02:32:51.953] Buffer size: 65536. States seen: 787563
+[2021-02-19 02:33:04.465] Losses(total: 3.469, policy: 2.752, value: 0.663, l2: 0.053)
+[2021-02-19 02:33:04.465] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 02:33:04.496]
+[2021-02-19 02:55:01.527] Step: 37
+[2021-02-19 02:55:01.527] Collected 21884 states from 324 games, 16.5 states/s. 2.1 states/(s*actor), game length: 67.5
+[2021-02-19 02:55:01.527] Buffer size: 65536. States seen: 809447
+[2021-02-19 02:55:17.748] Losses(total: 3.485, policy: 2.766, value: 0.666, l2: 0.054)
+[2021-02-19 02:55:17.762] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 02:55:17.773]
+[2021-02-19 03:17:06.748] Step: 38
+[2021-02-19 03:17:06.749] Collected 21861 states from 330 games, 16.5 states/s. 2.1 states/(s*actor), game length: 66.2
+[2021-02-19 03:17:06.749] Buffer size: 65536. States seen: 831308
+[2021-02-19 03:17:18.957] Losses(total: 3.479, policy: 2.778, value: 0.647, l2: 0.054)
+[2021-02-19 03:17:18.957] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 03:17:18.968]
+[2021-02-19 03:39:03.414] Step: 39
+[2021-02-19 03:39:03.414] Collected 21876 states from 330 games, 16.6 states/s. 2.1 states/(s*actor), game length: 66.3
+[2021-02-19 03:39:03.414] Buffer size: 65536. States seen: 853184
+[2021-02-19 03:39:18.107] Losses(total: 3.490, policy: 2.787, value: 0.649, l2: 0.054)
+[2021-02-19 03:39:18.107] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 03:39:18.118]
+[2021-02-19 04:01:10.689] Step: 40
+[2021-02-19 04:01:10.689] Collected 21854 states from 316 games, 16.5 states/s. 2.1 states/(s*actor), game length: 69.2
+[2021-02-19 04:01:10.689] Buffer size: 65536. States seen: 875038
+[2021-02-19 04:01:21.776] Losses(total: 3.494, policy: 2.778, value: 0.662, l2: 0.054)
+[2021-02-19 04:01:21.777] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 04:01:21.790]
+[2021-02-19 04:23:20.675] Step: 41
+[2021-02-19 04:23:20.675] Collected 21917 states from 310 games, 16.5 states/s. 2.1 states/(s*actor), game length: 70.7
+[2021-02-19 04:23:20.675] Buffer size: 65536. States seen: 896955
+[2021-02-19 04:23:37.417] Losses(total: 3.494, policy: 2.774, value: 0.665, l2: 0.054)
+[2021-02-19 04:23:37.417] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 04:23:37.428]
+[2021-02-19 04:45:16.824] Step: 42
+[2021-02-19 04:45:16.824] Collected 21861 states from 321 games, 16.6 states/s. 2.1 states/(s*actor), game length: 68.1
+[2021-02-19 04:45:16.824] Buffer size: 65536. States seen: 918816
+[2021-02-19 04:45:29.638] Losses(total: 3.480, policy: 2.773, value: 0.652, l2: 0.054)
+[2021-02-19 04:45:29.638] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 04:45:29.652]
+[2021-02-19 05:07:25.309] Step: 43
+[2021-02-19 05:07:25.310] Collected 21897 states from 311 games, 16.5 states/s. 2.1 states/(s*actor), game length: 70.4
+[2021-02-19 05:07:25.310] Buffer size: 65536. States seen: 940713
+[2021-02-19 05:07:40.510] Losses(total: 3.449, policy: 2.772, value: 0.623, l2: 0.055)
+[2021-02-19 05:07:40.510] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 05:07:40.523]
+[2021-02-19 05:29:19.095] Step: 44
+[2021-02-19 05:29:19.095] Collected 21899 states from 310 games, 16.7 states/s. 2.1 states/(s*actor), game length: 70.6
+[2021-02-19 05:29:19.095] Buffer size: 65536. States seen: 962612
+[2021-02-19 05:29:32.646] Losses(total: 3.461, policy: 2.771, value: 0.635, l2: 0.055)
+[2021-02-19 05:29:32.646] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 05:29:32.658]
+[2021-02-19 05:51:43.553] Step: 45
+[2021-02-19 05:51:43.553] Collected 21906 states from 310 games, 16.3 states/s. 2.0 states/(s*actor), game length: 70.7
+[2021-02-19 05:51:43.553] Buffer size: 65536. States seen: 984518
+[2021-02-19 05:51:58.395] Losses(total: 3.473, policy: 2.764, value: 0.654, l2: 0.055)
+[2021-02-19 05:51:58.395] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 05:51:58.436]
+[2021-02-19 06:13:42.497] Step: 46
+[2021-02-19 06:13:42.497] Collected 21853 states from 316 games, 16.6 states/s. 2.1 states/(s*actor), game length: 69.2
+[2021-02-19 06:13:42.497] Buffer size: 65536. States seen: 1006371
+[2021-02-19 06:13:56.190] Losses(total: 3.470, policy: 2.762, value: 0.652, l2: 0.055)
+[2021-02-19 06:13:56.191] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 06:13:56.219]
+[2021-02-19 06:35:47.960] Step: 47
+[2021-02-19 06:35:47.961] Collected 21909 states from 315 games, 16.5 states/s. 2.1 states/(s*actor), game length: 69.6
+[2021-02-19 06:35:47.961] Buffer size: 65536. States seen: 1028280
+[2021-02-19 06:36:02.164] Losses(total: 3.480, policy: 2.762, value: 0.663, l2: 0.056)
+[2021-02-19 06:36:02.173] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 06:36:02.184]
+[2021-02-19 06:58:00.609] Step: 48
+[2021-02-19 06:58:00.610] Collected 21891 states from 319 games, 16.4 states/s. 2.1 states/(s*actor), game length: 68.6
+[2021-02-19 06:58:00.610] Buffer size: 65536. States seen: 1050171
+[2021-02-19 06:58:14.560] Losses(total: 3.468, policy: 2.771, value: 0.641, l2: 0.056)
+[2021-02-19 06:58:14.575] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 06:58:14.586]
+[2021-02-19 07:20:08.061] Step: 49
+[2021-02-19 07:20:08.061] Collected 21904 states from 311 games, 16.5 states/s. 2.1 states/(s*actor), game length: 70.4
+[2021-02-19 07:20:08.061] Buffer size: 65536. States seen: 1072075
+[2021-02-19 07:20:22.840] Losses(total: 3.477, policy: 2.782, value: 0.639, l2: 0.056)
+[2021-02-19 07:20:22.840] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 07:20:22.853]
+[2021-02-19 07:42:10.336] Step: 50
+[2021-02-19 07:42:10.336] Collected 21896 states from 326 games, 16.6 states/s. 2.1 states/(s*actor), game length: 67.2
+[2021-02-19 07:42:10.336] Buffer size: 65536. States seen: 1093971
+[2021-02-19 07:42:24.717] Losses(total: 3.486, policy: 2.786, value: 0.644, l2: 0.056)
+[2021-02-19 07:42:24.717] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 07:42:24.724]
+[2021-02-19 08:04:15.284] Step: 51
+[2021-02-19 08:04:15.284] Collected 21930 states from 327 games, 16.6 states/s. 2.1 states/(s*actor), game length: 67.1
+[2021-02-19 08:04:15.284] Buffer size: 65536. States seen: 1115901
+[2021-02-19 08:04:30.815] Losses(total: 3.492, policy: 2.777, value: 0.659, l2: 0.056)
+[2021-02-19 08:04:30.817] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 08:04:30.845]
+[2021-02-19 08:26:17.413] Step: 52
+[2021-02-19 08:26:17.413] Collected 21875 states from 313 games, 16.5 states/s. 2.1 states/(s*actor), game length: 69.9
+[2021-02-19 08:26:17.413] Buffer size: 65536. States seen: 1137776
+[2021-02-19 08:26:28.748] Losses(total: 3.493, policy: 2.754, value: 0.682, l2: 0.056)
+[2021-02-19 08:26:28.748] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 08:26:28.750]
+[2021-02-19 08:48:09.981] Step: 53
+[2021-02-19 08:48:09.981] Collected 21850 states from 315 games, 16.6 states/s. 2.1 states/(s*actor), game length: 69.4
+[2021-02-19 08:48:09.982] Buffer size: 65536. States seen: 1159626
+[2021-02-19 08:48:24.923] Losses(total: 3.438, policy: 2.729, value: 0.652, l2: 0.057)
+[2021-02-19 08:48:24.924] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 08:48:24.935]
+[2021-02-19 09:10:07.181] Step: 54
+[2021-02-19 09:10:07.181] Collected 21889 states from 316 games, 16.6 states/s. 2.1 states/(s*actor), game length: 69.3
+[2021-02-19 09:10:07.181] Buffer size: 65536. States seen: 1181515
+[2021-02-19 09:10:19.757] Losses(total: 3.417, policy: 2.710, value: 0.650, l2: 0.057)
+[2021-02-19 09:10:19.757] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 09:10:19.767]
+[2021-02-19 09:31:56.590] Step: 55
+[2021-02-19 09:31:56.590] Collected 21882 states from 310 games, 16.7 states/s. 2.1 states/(s*actor), game length: 70.6
+[2021-02-19 09:31:56.590] Buffer size: 65536. States seen: 1203397
+[2021-02-19 09:32:12.601] Losses(total: 3.427, policy: 2.712, value: 0.658, l2: 0.057)
+[2021-02-19 09:32:12.601] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 09:32:12.614]
+[2021-02-19 09:53:26.298] Step: 56
+[2021-02-19 09:53:26.299] Collected 21886 states from 309 games, 17.0 states/s. 2.1 states/(s*actor), game length: 70.8
+[2021-02-19 09:53:26.299] Buffer size: 65536. States seen: 1225283
+[2021-02-19 09:53:37.271] Losses(total: 3.425, policy: 2.699, value: 0.668, l2: 0.057)
+[2021-02-19 09:53:37.271] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 09:53:37.283]
+[2021-02-19 10:15:08.772] Step: 57
+[2021-02-19 10:15:08.772] Collected 21873 states from 305 games, 16.8 states/s. 2.1 states/(s*actor), game length: 71.7
+[2021-02-19 10:15:08.772] Buffer size: 65536. States seen: 1247156
+[2021-02-19 10:15:23.716] Losses(total: 3.401, policy: 2.691, value: 0.653, l2: 0.058)
+[2021-02-19 10:15:23.722] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 10:15:23.741]
+[2021-02-19 10:36:45.901] Step: 58
+[2021-02-19 10:36:45.901] Collected 21901 states from 311 games, 16.9 states/s. 2.1 states/(s*actor), game length: 70.4
+[2021-02-19 10:36:45.901] Buffer size: 65536. States seen: 1269057
+[2021-02-19 10:36:59.430] Losses(total: 3.403, policy: 2.689, value: 0.656, l2: 0.058)
+[2021-02-19 10:36:59.430] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 10:36:59.438]
+[2021-02-19 10:58:13.298] Step: 59
+[2021-02-19 10:58:13.298] Collected 21910 states from 312 games, 17.0 states/s. 2.1 states/(s*actor), game length: 70.2
+[2021-02-19 10:58:13.298] Buffer size: 65536. States seen: 1290967
+[2021-02-19 10:58:26.416] Losses(total: 3.419, policy: 2.710, value: 0.652, l2: 0.058)
+[2021-02-19 10:58:26.416] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 10:58:26.427]
+[2021-02-19 11:19:39.106] Step: 60
+[2021-02-19 11:19:39.106] Collected 21863 states from 308 games, 17.0 states/s. 2.1 states/(s*actor), game length: 71.0
+[2021-02-19 11:19:39.106] Buffer size: 65536. States seen: 1312830
+[2021-02-19 11:19:53.599] Losses(total: 3.407, policy: 2.702, value: 0.648, l2: 0.058)
+[2021-02-19 11:19:53.599] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 11:19:53.608]
+[2021-02-19 11:41:20.513] Step: 61
+[2021-02-19 11:41:20.513] Collected 21905 states from 298 games, 16.8 states/s. 2.1 states/(s*actor), game length: 73.5
+[2021-02-19 11:41:20.513] Buffer size: 65536. States seen: 1334735
+[2021-02-19 11:41:35.024] Losses(total: 3.392, policy: 2.685, value: 0.649, l2: 0.058)
+[2021-02-19 11:41:35.024] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 11:41:35.037]
+[2021-02-19 12:02:50.067] Step: 62
+[2021-02-19 12:02:50.067] Collected 21851 states from 303 games, 16.9 states/s. 2.1 states/(s*actor), game length: 72.1
+[2021-02-19 12:02:50.067] Buffer size: 65536. States seen: 1356586
+[2021-02-19 12:03:01.678] Losses(total: 3.394, policy: 2.676, value: 0.660, l2: 0.058)
+[2021-02-19 12:03:01.678] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 12:03:01.685]
+[2021-02-19 12:24:23.272] Step: 63
+[2021-02-19 12:24:23.272] Collected 21872 states from 300 games, 16.9 states/s. 2.1 states/(s*actor), game length: 72.9
+[2021-02-19 12:24:23.272] Buffer size: 65536. States seen: 1378458
+[2021-02-19 12:24:37.731] Losses(total: 3.399, policy: 2.668, value: 0.673, l2: 0.058)
+[2021-02-19 12:24:37.731] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 12:24:37.743]
+[2021-02-19 12:46:22.775] Step: 64
+[2021-02-19 12:46:22.775] Collected 21859 states from 297 games, 16.6 states/s. 2.1 states/(s*actor), game length: 73.6
+[2021-02-19 12:46:22.775] Buffer size: 65536. States seen: 1400317
+[2021-02-19 12:46:37.679] Losses(total: 3.373, policy: 2.664, value: 0.650, l2: 0.059)
+[2021-02-19 12:46:37.679] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 12:46:37.689]
+[2021-02-19 13:08:14.083] Step: 65
+[2021-02-19 13:08:14.083] Collected 21863 states from 303 games, 16.7 states/s. 2.1 states/(s*actor), game length: 72.2
+[2021-02-19 13:08:14.083] Buffer size: 65536. States seen: 1422180
+[2021-02-19 13:08:29.326] Losses(total: 3.388, policy: 2.673, value: 0.656, l2: 0.059)
+[2021-02-19 13:08:29.326] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 13:08:29.338]
+[2021-02-19 13:30:11.509] Step: 66
+[2021-02-19 13:30:11.509] Collected 21846 states from 312 games, 16.6 states/s. 2.1 states/(s*actor), game length: 70.0
+[2021-02-19 13:30:11.509] Buffer size: 65536. States seen: 1444026
+[2021-02-19 13:30:25.586] Losses(total: 3.393, policy: 2.670, value: 0.663, l2: 0.059)
+[2021-02-19 13:30:25.587] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 13:30:25.601]
+[2021-02-19 13:52:12.885] Step: 67
+[2021-02-19 13:52:12.885] Collected 21903 states from 307 games, 16.6 states/s. 2.1 states/(s*actor), game length: 71.3
+[2021-02-19 13:52:12.885] Buffer size: 65536. States seen: 1465929
+[2021-02-19 13:52:27.380] Losses(total: 3.395, policy: 2.671, value: 0.665, l2: 0.059)
+[2021-02-19 13:52:27.380] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 13:52:27.392]
+[2021-02-19 14:14:11.707] Step: 68
+[2021-02-19 14:14:11.707] Collected 21869 states from 306 games, 16.6 states/s. 2.1 states/(s*actor), game length: 71.5
+[2021-02-19 14:14:11.707] Buffer size: 65536. States seen: 1487798
+[2021-02-19 14:14:27.154] Losses(total: 3.405, policy: 2.672, value: 0.674, l2: 0.059)
+[2021-02-19 14:14:27.155] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 14:14:27.165]
+[2021-02-19 14:36:24.271] Step: 69
+[2021-02-19 14:36:24.272] Collected 21886 states from 299 games, 16.4 states/s. 2.1 states/(s*actor), game length: 73.2
+[2021-02-19 14:36:24.272] Buffer size: 65536. States seen: 1509684
+[2021-02-19 14:36:36.485] Losses(total: 3.393, policy: 2.673, value: 0.660, l2: 0.060)
+[2021-02-19 14:36:36.485] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 14:36:36.497]
+[2021-02-19 14:58:32.334] Step: 70
+[2021-02-19 14:58:32.334] Collected 21883 states from 305 games, 16.5 states/s. 2.1 states/(s*actor), game length: 71.7
+[2021-02-19 14:58:32.334] Buffer size: 65536. States seen: 1531567
+[2021-02-19 14:58:46.918] Losses(total: 3.401, policy: 2.684, value: 0.658, l2: 0.060)
+[2021-02-19 14:58:46.918] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 14:58:46.947]
+[2021-02-19 15:20:34.046] Step: 71
+[2021-02-19 15:20:34.046] Collected 21865 states from 311 games, 16.5 states/s. 2.1 states/(s*actor), game length: 70.3
+[2021-02-19 15:20:34.046] Buffer size: 65536. States seen: 1553432
+[2021-02-19 15:20:47.103] Losses(total: 3.395, policy: 2.679, value: 0.655, l2: 0.060)
+[2021-02-19 15:20:47.103] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 15:20:47.118]
+[2021-02-19 15:42:46.087] Step: 72
+[2021-02-19 15:42:46.087] Collected 21871 states from 324 games, 16.4 states/s. 2.1 states/(s*actor), game length: 67.5
+[2021-02-19 15:42:46.087] Buffer size: 65536. States seen: 1575303
+[2021-02-19 15:42:59.987] Losses(total: 3.409, policy: 2.700, value: 0.649, l2: 0.060)
+[2021-02-19 15:42:59.988] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 15:42:59.999]
+[2021-02-19 16:04:51.478] Step: 73
+[2021-02-19 16:04:51.479] Collected 21881 states from 322 games, 16.5 states/s. 2.1 states/(s*actor), game length: 68.0
+[2021-02-19 16:04:51.479] Buffer size: 65536. States seen: 1597184
+[2021-02-19 16:05:07.136] Losses(total: 3.431, policy: 2.711, value: 0.660, l2: 0.060)
+[2021-02-19 16:05:07.162] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 16:05:07.173]
+[2021-02-19 16:27:04.322] Step: 74
+[2021-02-19 16:27:04.322] Collected 21903 states from 320 games, 16.4 states/s. 2.1 states/(s*actor), game length: 68.4
+[2021-02-19 16:27:04.322] Buffer size: 65536. States seen: 1619087
+[2021-02-19 16:27:19.776] Losses(total: 3.433, policy: 2.727, value: 0.646, l2: 0.060)
+[2021-02-19 16:27:19.776] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 16:27:19.787]
+[2021-02-19 16:48:52.431] Step: 75
+[2021-02-19 16:48:52.432] Collected 21880 states from 312 games, 16.7 states/s. 2.1 states/(s*actor), game length: 70.1
+[2021-02-19 16:48:52.432] Buffer size: 65536. States seen: 1640967
+[2021-02-19 16:49:07.166] Losses(total: 3.440, policy: 2.728, value: 0.651, l2: 0.060)
+[2021-02-19 16:49:07.166] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 16:49:07.178]
+[2021-02-19 17:10:51.036] Step: 76
+[2021-02-19 17:10:51.036] Collected 21880 states from 314 games, 16.6 states/s. 2.1 states/(s*actor), game length: 69.7
+[2021-02-19 17:10:51.036] Buffer size: 65536. States seen: 1662847
+[2021-02-19 17:11:07.823] Losses(total: 3.444, policy: 2.725, value: 0.659, l2: 0.061)
+[2021-02-19 17:11:07.832] Checkpoint saved: /tmp/az-2021-02-18-13-25-breakthrough-i1gvtjky/checkpoint--1
+[2021-02-19 17:11:07.857]
+[2021-02-19 17:27:04.033] learner exiting

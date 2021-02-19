@@ -1,0 +1,4 @@
+[2021-02-18 13:23:09.676] actor-0 started
+[2021-02-18 13:23:09.676] Initializing model
+[2021-02-18 13:23:14.382] Initializing bots
+[2021-02-18 13:24:31.360] actor-0 exiting
